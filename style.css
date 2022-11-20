@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@100;400;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Poppins', serif;
+    color: white;
+    font-size: 140px;
+    text-shadow: 0 0 70px rgb(66, 196, 236);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: black;
+    width: 75vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 30px black;
+    border-radius: 50px;
+    border: 2px solid rgb(4, 148, 192);
+}
