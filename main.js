@@ -6,7 +6,7 @@ window.onload = () => {
     
     function changeBackground() {
         logical = !logical;
-        box.style.backgroundColor = logical ? "black" : "greenyellow";
+        box.style.backgroundColor = logical ? "black" : "#0a0a03";
         title.style.color = logical ? "white" : "black";
     };
 
